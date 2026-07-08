@@ -4,17 +4,29 @@ import {
   BookOpen, Users, Heart, Gift, Check, X, Shield, Star, Zap, Lock,
   Printer, Scissors, BookMarked, ChevronDown, Bookmark, Sparkles,
 } from "lucide-react";
-import heroBundle from "@/assets/mc/hero-bundle.png";
-import steps from "@/assets/mc/steps.png";
-import pageMaria from "@/assets/mc/page-maria.png";
-import pageJesus from "@/assets/mc/page-jesus.png";
-import pageCristo from "@/assets/mc/page-cristo.png";
-import pageAnjos from "@/assets/mc/page-anjos.png";
-import capa150 from "@/assets/mc/capa-150.png";
-import bonusImpressao from "@/assets/mc/bonus-impressao.png";
-import bonusCriancas from "@/assets/mc/bonus-criancas.png";
-import bonusSalmos from "@/assets/mc/bonus-salmos.jpg";
-import bonusPlaylist from "@/assets/mc/bonus-playlist.jpg";
+import heroBundleAsset from "@/assets/mc/hero-bundle.png.asset.json";
+import stepsAsset from "@/assets/mc/steps.png.asset.json";
+import pageMariaAsset from "@/assets/mc/page-maria.png.asset.json";
+import pageJesusAsset from "@/assets/mc/page-jesus.png.asset.json";
+import pageCristoAsset from "@/assets/mc/page-cristo.png.asset.json";
+import pageAnjosAsset from "@/assets/mc/page-anjos.png.asset.json";
+import capa150Asset from "@/assets/mc/capa-150.png.asset.json";
+import bonusImpressaoAsset from "@/assets/mc/bonus-impressao.png.asset.json";
+import bonusCriancasAsset from "@/assets/mc/bonus-criancas.png.asset.json";
+import bonusSalmosAsset from "@/assets/mc/bonus-salmos.jpg.asset.json";
+import bonusPlaylistAsset from "@/assets/mc/bonus-playlist.jpg.asset.json";
+
+const heroBundle = heroBundleAsset.url;
+const steps = stepsAsset.url;
+const pageMaria = pageMariaAsset.url;
+const pageJesus = pageJesusAsset.url;
+const pageCristo = pageCristoAsset.url;
+const pageAnjos = pageAnjosAsset.url;
+const capa150 = capa150Asset.url;
+const bonusImpressao = bonusImpressaoAsset.url;
+const bonusCriancas = bonusCriancasAsset.url;
+const bonusSalmos = bonusSalmosAsset.url;
+const bonusPlaylist = bonusPlaylistAsset.url;
 
 export const Route = createFileRoute("/")({
   component: Index,
