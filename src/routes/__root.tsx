@@ -77,14 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "150 Marcadores Católicos para Imprimir — Coleção Premium" },
+      { name: "description", content: "150 marcadores católicos premium (5x15 cm) prontos para imprimir. Maria, Jesus, santos, anjos e versículos. Acesso imediato + 4 bônus exclusivos." },
+      { name: "author", content: "Editora GPR" },
+      { property: "og:title", content: "150 Marcadores Católicos para Imprimir" },
+      { property: "og:description", content: "Coleção premium com 150 marcadores ilustrados para sua Bíblia, missal e livros devocionais." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
